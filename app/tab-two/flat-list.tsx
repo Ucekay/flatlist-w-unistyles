@@ -1,7 +1,7 @@
 import { FlatList, Text, View } from "react-native"
 import {StyleSheet} from "react-native-unistyles"
 
-const ItemScreen = () => {
+const FlatListScreen = () => {
   const data = Array.from({ length: 100 }, (_, i) => i)
   return (
     <FlatList
@@ -16,7 +16,7 @@ const ItemScreen = () => {
   )
 }
 
-export default ItemScreen
+export default FlatListScreen
 
 const styles = StyleSheet.create({
   item: {
