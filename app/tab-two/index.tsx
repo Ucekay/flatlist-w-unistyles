@@ -7,7 +7,7 @@ const Index = () => {
 
   return (
     <View style={styles.container}>
-      <Button title="Go to FlatList Screen" onPress={() => router.push("/flat-list")}/>
+      <Button title="Go to FlatList Screen" onPress={() => router.push("/tab-two/flat-list")}/>
     </View>
   )
 }
